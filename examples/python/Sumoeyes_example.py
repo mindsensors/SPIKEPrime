@@ -1,6 +1,6 @@
 # Write your code here :-)
 import hub, time
-from Sumoeyes import SUMOEYES
+from mindsensors import SUMOEYES
 
 
 sumo = SUMOEYES(hub.port.A)
