@@ -4,7 +4,7 @@
 # Watch console output to check progress.
 # After reboot DO NOT LET THE SOFTWARE UPDATE YOUR HUB
 # Works with the LEGO SPIKE app and the LEGO MINDSTORMS app
-#adapted from https://antonsmindstorms.com/
+#adapted from  https://github.com/antonvh/mpy-robot-tools
 
 
 from ubinascii import hexlify, a2b_base64
