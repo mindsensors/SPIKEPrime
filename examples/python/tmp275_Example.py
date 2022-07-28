@@ -1,12 +1,12 @@
 # Write your code here :-)
 
 import hub,time
-from projects.lib.mindsensors import TMP275
+from projects.lib.mindsensors  import TMP275
 
 
 
 
-tmp = TMP275(hub.port.C)
+tmp = TMP275(hub.port.C,0x38)
 print("this is TMP275 test")
 while True:
     tmper =tmp.readTemperature()
