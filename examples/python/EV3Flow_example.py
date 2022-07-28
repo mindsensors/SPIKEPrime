@@ -1,6 +1,6 @@
 # Write your code here :-)
 import hub,time
-from EV3Flow import EV3FLOW
+from projects.lib.mindsensors import EV3FLOW
 flow = EV3FLOW(hub.port.C)
 
 print(flow.GetFirmwareVersion())
